@@ -1,4 +1,4 @@
-
+/* eslint-disable react/no-unescaped-entities */
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";

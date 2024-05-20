@@ -1,4 +1,4 @@
-
+/* eslint-disable react/no-unescaped-entities */
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react"
 
 import Form from "@/components/Form"

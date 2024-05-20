@@ -26,12 +26,11 @@ const Hero = () => {
 					xl:mx-0 text-center xl:text-left">
 						<div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
 							{" "}
-							Front End Web Developer - Devops Engineer
+							 Web Developer / Designer - Devops Engineer
 						</div>
 						<h1 className="h1 mb-4">Temidire Adelaja</h1>
 						<p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-							Brief Desciption with insights into myself, my journey and what i
-							engage in professionally{" "}
+							I am a Web developer and Devops Engineer
 						</p>
 						{/* buttons */}
 						<div className="flex flex-col gasp-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">

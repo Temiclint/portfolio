@@ -1,4 +1,6 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
+
 import React, {useState} from "react";
 import { Tabs, TabsTrigger , TabsContent, TabsList } from '@/components/ui/tabs';
 import ProjectCard from "@/components/ProjectCard";
