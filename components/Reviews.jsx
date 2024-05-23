@@ -17,37 +17,37 @@ import { Pagination, Navigation } from "swiper/modules";
 
 const reviewsData = [
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-1.jpg",
 		name: "John doe ",
 		job: "Architech",
 		review: "my review on this job was beautiful",
 	},
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-2.jpg",
 		name: "Ahmad fulan",
 		job: "Engineer",
 		review: "my review on this job was beautiful",
 	},
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-3.jpg",
 		name: "Eran show",
 		job: "Chef",
 		review: "my review on this job was beautiful",
 	},
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-4.jpg",
 		name: "Noah Shawnn",
 		job: "Sales rep",
 		review: "my review on this job was beautiful",
 	},
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-5.jpg",
 		name: "Tola Aramide",
 		job: "video Editor",
 		review: "my review on this job was beautiful",
 	},
 	{
-		avatar: "/reviews/avatar-1.png",
+		avatar: "/reviews/avatar-6.jpg",
 		name: "Zayd Faruk",
 		job: "Real Estate",
 		review: "my review on this job was beautiful",
@@ -78,7 +78,7 @@ const Reviews = () => {
 								<Card className="bg-rose-50 dark:bg-secondary/40 p-8 min-h-[300px]">
 									<CardHeader> 
                                     <div className="flex items-center gap-x-4">
-                                        <Image src={person.avatar} width={70} height={70} alt="" priority/>
+                                        <Image className="rounded-full" src={person.avatar} width={70} height={70} alt="" priority/>
                                  {/*name*/}
                                  <div className="flex flex-col">
                                     <CardTitle>{person.name}</CardTitle>

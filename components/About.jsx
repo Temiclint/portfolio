@@ -90,7 +90,10 @@ const skillData = [
 				name: "Front-End Development",
 			},
 			{
-				name: "Javascript, PHP, React JS, Node JS",
+				name: "Javascript, PHP, React JS, Node JS, MongoDB, Express.js",
+			},
+			{
+				name: "Back-End Development",
 			},
             {
                 name: "No Code Development, Bubble.io"
@@ -140,19 +143,19 @@ const About = () => {
 					About me
 				</h2>
 				<div className="flex flex-col xl:flex-row">
-					<div className="hidden xl:flex flex-1 relative">
+					{/* <div className="hidden xl:flex flex-1 relative"> */}
 						{/* image */}
 
-						<MyImg
+						{/* <MyImg
 							containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
 							imgSrc=""
 						/>
-					</div>
+					</div> */}
 
 					{/* tabs */}
 					<div className="flex-1">
 						<Tabs defaultValue="personal">
-							<TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+							<TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[650px] mx-auto xl:border dark:border-none">
 								<TabsTrigger className="w-[126px] xl:w-auto" value="personal">
 									Personal Info{" "}
 								</TabsTrigger>
@@ -284,9 +287,10 @@ const About = () => {
 								{/* skills */}
 								<TabsContent value="skills">
 									<div className="text-center xl:text-left">
-										<h3 className="h3 mb-8">Tools I Use</h3>
-                                        <div className="mb-16">
-                                            <h4 className="text-xl font-semibold mb-2"> Skills</h4>
+										<h3 className="h3 mb-5">Tools I Use</h3>
+										<div className="flex flex-col xl:flex-row gap-[50px] justify-center">
+                                        <div className="mb-14">
+                                            <h4 className="text-xl text-center font-semibold mb-2"> Skills</h4>
                                             <div className="border-b border-border mb-4"></div>
                                             {/* skills list */}
                                             <div>
@@ -301,12 +305,12 @@ const About = () => {
                                             </div>
                                         </div>
                                         {/* tools */}
-                                        <div> 
-                                            <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                                        <div > 
+                                            <h4 className="text-xl font-semibold mb-2 xl:text-center">
                                                 Tools
                                             </h4>
                                             <div className="border-b border-border mb-4"></div>
-                                            <div className="flex gap-x-8 justify-center xl:justify-start">
+                                            <div className="flex flex-row xl:flex-col  gap-x-8 xl: gap-y-4 justify-center items-center w-[350px] mb-14 ">
                                                 {getData(skillData, "Tools").data.map((item, index)=>{
                                                     const {imgPath} = item
                                                     return <div key={index}>
@@ -315,6 +319,7 @@ const About = () => {
                                                 })}
                                             </div>
                                         </div>
+										</div>
 									</div>
 								</TabsContent>
 							</div>

@@ -13,66 +13,51 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
 	{
-		image: "",
-		category: "Bubble.io development",
+		image: '/work/gdw_bubble.png',
+		category: "Bubble.io",
 		name: "Global Data Wifi",
-		description: " ",
-		link: "/",
+		description: "No Code Web App Development for an Internet Data Company. Figma also included",
+		link: "https://globaldatawifi.com/",
 		github: "/",
 	},
 	{
-		image: "",
-		category: "React Js frontend design",
+		image: "/work/driveplus.png",
+		category: "React Js",
 		name: "Drive +",
-		description: " ",
+		description: "personal Front-end Project for a Ride Hauling App designed with React and Tailwind",
 		link: "/",
 		github: "/",
 	},
 	{
-		image: "",
-		category: "Sock Shop deployment with terraform on aws",
+		image: "/work/sockshop.png",
+		category: "Aws Devops",
 		name: "Altschool sock shop",
-		description: " ",
+		description: "A final year project on devops application including a host of tools ",
 		link: "/",
 		github: "/",
 	},
 	{
-		image: "",
-		category: "wordpress Website Design",
+		image: "/work/nettinx_website.png",
+		category: "wordpress",
 		name: "Nettinx website",
-		description: " ",
+		description: " Website design for Nettinx  ",
 		link: "/",
 		github: "/",
 	},
 	{
-		image: "",
-		category: "Bubble.io development",
+		image: "/work/nettinx_bubble.png",
+		category: "Bubble.io",
 		name: "Nettinx web app",
-		description: " ",
+		description: " Web App design for Nettinx",
 		link: "/",
 		github: "/",
 	},
+	
 	{
-		image: "",
-		category: "React Js frontend design",
-		name: "Drive +",
-		description: " ",
-		link: "/",
-		github: "/",
-	},
-	{
-		image: "",
-		category: "Sock Shop deployment with terraform on aws",
-		name: "Temibrands global website",
-		description: " ",
-		link: "/",
-		github: "/",
-	},
-	{
-		image: "",
-		category: "wordpress Website Design",
+		image: "/work/sankofa_wp.png",
+		category: "wordpress",
 		name: "Sankofa Website",
-		description: " ",
+		description: "Website design for Sankofa ",
 		link: "/",
 		github: "/",
 	},
@@ -88,7 +73,7 @@ const Work = () => {
     text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center
     items-center xl:items-start">
 					<h2 className="section-title mb-4">Past Projects</h2>
-					<p className="subtitle mb-8"> Lorem Ipsum donor</p>
+					<p className="subtitle mb-8"> Here are a few from past projects</p>
 					<Link href="/projects">
 						<Button> All Projects</Button>
 					</Link>

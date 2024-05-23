@@ -12,11 +12,12 @@ const Contact = () => {
        
           <div className="flex items-center gap-x-4 text-primary text-lg mb-4">  <span className="w-[30px] h-[2px] bg-primary"></span> Say Hello 👋</div>
           <h1 className="h1 max-2-md mb-8">Let's Work Together!</h1>
-          <p className="subtitle max-w-[400px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur quia consectetur accusantium dignissimos! Dolor nostrum enim omnis itaque quis deserunt, reiciendis, 
-            amet ipsa animi, soluta voluptas explicabo placeat eaque?</p>
+          <p className="subtitle max-w-[400px]">I'm excited to collaborate on your next project. 
+          Whether you need web design, development, or brand development, I'm here to 
+          help bring your vision to life. Reach out today, and let's start creating something amazing together!</p>
         </div>
       {/* illustrations */}
-        <div className="hidden xl:flex w-full bg-contact-contact_illustration_light dark:bg-contact-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
+        <div className="hidden xl:flex w-full bg-contact_illustration bg-contain bg-top bg-no-repeat"></div>
       </div>
 
       <div className="grid xl:grid-cols-2 mb-24 xl:mb-32"> 

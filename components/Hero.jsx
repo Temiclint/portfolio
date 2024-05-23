@@ -56,35 +56,35 @@ const Hero = () => {
 					<div className="hidden xl:flex relative">
 						{/* badge 1 */}
 						<Badge
-							containerStyles="absolute top-[28%] -left-[3rem]"
+							containerStyles="absolute top-[10%] -left-[3rem]"
 							icon={<RiTodoFill />}
 							endCountNum={3}
 							badgeText={"Years Of Experience"}
 						/>
 							{/* badge 2 */}
 							<Badge
-							containerStyles="absolute top-[70%] -left-[-5rem]"
+							containerStyles="absolute top-[90%] -left-[-5rem]"
 							icon={<RiBriefcase4Fill />}
-							endCountNum={1}
-							endCountText='k'
+							endCountNum={40}
+							endCountText=''
 							badgeText= "Completed Projects"
 						/>
 						{/* badge 3 */}
 						<Badge
-							containerStyles="absolute top-[50%] -right-8"
+							containerStyles="absolute top-[50%] -right-[25%]"
 							icon={<RiTeamFill />}
-							endCountNum={9}
-							endCountText='k'
+							endCountNum={35}
+							endCountText=''
 							badgeText= "Happy clients"
 						/>
 
 						<div
-							className="bg-hero_shape_red dark:bg-hero_shape_white w-[500px] h-[500px] bg-no-repeat absolute
+							className="bg-hero_shape_red dark:bg-hero_shape_white w-[500px] h-[540px] bg-no-repeat absolute
 						-top-1 -right-2"></div>
 						<MyImg
-							containerStyles="bg-hero_shape w-[510px] h-[482px] bg-no-repeat
+							containerStyles="bg-hero_shape w-[450px] h-[470px] bg-no-repeat
 						relative bg-bottom"
-							imgSrc=""
+							imgSrc="/hero/devimg.png"
 						/>
 
 						

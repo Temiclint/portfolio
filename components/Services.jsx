@@ -6,17 +6,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Design',
-        description: "Services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum reprehenderit nihil modi mollitia maxime tempora iste sint! Dolorem, aliquid. Suscipit magni ipsa earum aut nisi odio a dolorem nulla esse."
+        description: "I create visually stunning, user-friendly web designs that capture your brand's essence and engage your audience. My responsive designs ensure your site looks great on all devices, from desktops to smartphones."
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: "Services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum reprehenderit nihil modi mollitia maxime tempora iste sint! Dolorem, aliquid. Suscipit magni ipsa earum aut nisi odio a dolorem nulla esse. "
+        description: "I bring your web design to life with clean, efficient coding. Whether you need an informational website, e-commerce platform, or custom application, I use the latest technologies to ensure your site is fast, secure, and scalable."
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'Brand Development',
-        description: "Services Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum reprehenderit nihil modi mollitia maxime tempora iste sint! Dolorem, aliquid. Suscipit magni ipsa earum aut nisi odio a dolorem nulla esse."
+        description: "I help you build a strong, cohesive brand identity that resonates with your audience. From logo design to brand messaging, I ensure consistency across all your marketing materials to create lasting brand loyalty."
     },
 ];
 const Services = () => {
